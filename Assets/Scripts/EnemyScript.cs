@@ -11,10 +11,7 @@ public class EnemyScript : MonoBehaviour {
 		
 	}
 	
-	void OnCollisionEnter(Collision col){
-		if (col.gameObject.tag == "Player") {
-			//gms.EnemyKills += 1;
-			Destroy (gameObject);
-		}
+	void EnemyDestroy(){
+		Destroy (gameObject);
 	}
 }

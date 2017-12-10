@@ -20,15 +20,12 @@ public class PlayerMoveScript : MonoBehaviour {
 	void Update(){
 		moveX = Input.GetAxis ("Horizontal") * speed;
 		moveZ = Input.GetAxis ("Vertical") * speed;
-		Vector3 direction = new Vector3 (moveX, 0, moveZ);
-	}
-
-	void FixedUpdate(){
+		//Vector3 direction = new Vector3 (moveX, 0, moveZ);
 		rb.velocity = new Vector3 (moveX, 0, moveZ);
 	}
 
-	void OnTriggerEnter(Collider col){
-		if (col.gameObject.tag == "ClearJudgePoint" && gms.EnemyKills == 5) {
-		}
+	void OnCollisionEnter(Collision col){
+		
 	}
+
 }
