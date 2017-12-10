@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DScrollProject", "Assembly-CSharp.csproj", "{5BCE9318-AC5D-56BF-79EB-1C54EB2D6F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DScrollProject", "Assembly-CSharp-firstpass.csproj", "{5D9F0EB3-7A5E-B6AA-7224-C8EC223F6F19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BCE9318-AC5D-56BF-79EB-1C54EB2D6F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCE9318-AC5D-56BF-79EB-1C54EB2D6F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCE9318-AC5D-56BF-79EB-1C54EB2D6F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCE9318-AC5D-56BF-79EB-1C54EB2D6F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9F0EB3-7A5E-B6AA-7224-C8EC223F6F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9F0EB3-7A5E-B6AA-7224-C8EC223F6F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9F0EB3-7A5E-B6AA-7224-C8EC223F6F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9F0EB3-7A5E-B6AA-7224-C8EC223F6F19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
